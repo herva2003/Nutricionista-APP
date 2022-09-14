@@ -11,7 +11,7 @@ class funcoes():
     def calcular_imc(self):
         if (self.cadastro_entry_altura.get() == "") or (self.cadastro_entry_peso.get() == ""):
             self.msg = "Informe os valores"
-            messagebox.showerror("Erro!", self.msg)
+            messagebox.showerror("Erro!!", self.msg)
         else:
             self.peso = self.cadastro_entry_peso.get()
             self.altura = self.cadastro_entry_altura.get()
